@@ -11,7 +11,7 @@
   font-size: 6rem;
   font-weight: 700;
   font-family: CyberBrush;
-  margin: 50px 100px 60px;
+  margin: 36px 100px 60px;
 }
 
 @media (max-width: 1399px) {
@@ -62,12 +62,12 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 207px;
+    min-height: 704px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
-    margin: 0 -14px 60px;
+    margin: 51px -14px 60px;
   }
 }@font-face {
   font-family: 'CyberBrush';
