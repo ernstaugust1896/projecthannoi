@@ -46768,17 +46768,13 @@ a.u-link.u-text-hover-color-var:hover {
   font-weight: 900;
   background-image: none;
   border-style: solid;
-  margin: 0 calc(((100% - 1320px) / 2)  + -51px) 0 auto;
+  margin: 0 0 0 auto;
   padding: 10px 35px 11px 34px;
 }
 @media (max-width: 1399px) {
   .u-header .u-image-1 {
     left: 482px;
     right: auto;
-  }
-
-  .u-header .u-btn-1 {
-    margin-right: 0;
   }
 }
 @media (max-width: 1199px) {
@@ -46809,17 +46805,13 @@ a.u-link.u-text-hover-color-var:hover {
 }
  .u-footer {
   background-image: none;
-  min-height: 61px;
+  min-height: 109px;
 }
 
 
 
 
-@media (max-width: 575px) {
-   .u-footer {
-    min-height: 57px;
-  }
-}
+
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
