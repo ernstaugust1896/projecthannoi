@@ -7,16 +7,21 @@
   min-height: 780px;
 }
 
+.u-section-1 .u-group-1 {
+  width: 295px;
+  min-height: 429px;
+  height: auto;
+  margin: 108px auto 0 30px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding-top: 30px;
+}
+
 .u-section-1 .u-text-1 {
   font-family: CyberBrush;
   font-size: 3.75rem;
-  margin: 148px 1023px 0 30px;
-}
-
-.u-section-1 .u-text-2 {
-  font-family: CyberBrush;
-  font-size: 3.75rem;
-  margin: -96px 66px 0 987px;
+  margin: 15px -7px 0 30px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -24,7 +29,7 @@
   border-style: solid;
   font-family: CyberBrush;
   font-size: 1.5625rem;
-  margin: 9px auto 0 66px;
+  margin: 12px auto 0 50px;
   padding: 4px 58px 5px 56px;
 }
 
@@ -33,7 +38,7 @@
   border-style: solid;
   font-family: CyberBrush;
   font-size: 1.5625rem;
-  margin: 0 auto 0 66px;
+  margin: 0 78px 0 50px;
   padding: 4px 41px 5px 40px;
 }
 
@@ -42,8 +47,25 @@
   border-style: solid;
   font-family: CyberBrush;
   font-size: 1.5625rem;
-  margin: -96px 83px 0 auto;
-  padding: 4px 58px 5px 56px;
+  margin: 0 auto 0 51px;
+  padding: 4px 8px 5px;
+}
+
+.u-section-1 .u-group-2 {
+  width: 295px;
+  min-height: 357px;
+  height: auto;
+  margin: -410px 50px 60px auto;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 21px 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: CyberBrush;
+  font-size: 3.75rem;
+  margin: 0 -64px 0 92px;
 }
 
 .u-section-1 .u-btn-4 {
@@ -51,8 +73,8 @@
   border-style: solid;
   font-family: CyberBrush;
   font-size: 1.5625rem;
-  margin: 0 84px 0 auto;
-  padding: 4px 60px 5px 59px;
+  margin: 9px 33px 0 30px;
+  padding: 4px 58px 5px 56px;
 }
 
 .u-section-1 .u-btn-5 {
@@ -60,8 +82,8 @@
   border-style: solid;
   font-family: CyberBrush;
   font-size: 1.5625rem;
-  margin: 0 auto 60px 66px;
-  padding: 4px 8px 5px;
+  margin: 0 34px 0 29px;
+  padding: 4px 60px 5px 59px;
 }
 
 @media (max-width: 1399px) {
@@ -69,50 +91,23 @@
     min-height: 674px;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-top: 410px;
-    margin-right: 873px;
-    margin-left: -32px;
+  .u-section-1 .u-group-1 {
+    margin-top: -241px;
+    height: auto;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-right: 0;
-    margin-left: 873px;
+  .u-section-1 .u-container-layout-1 {
+    padding: 0 30px;
   }
 
-  .u-section-1 .u-btn-1 {
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-btn-2 {
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-btn-3 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-btn-4 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-btn-5 {
-    margin-left: 0;
+  .u-section-1 .u-group-2 {
+    height: auto;
   }
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 556px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-top: 293px;
-    margin-right: 673px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: 673px;
   }
 }
 
@@ -121,17 +116,15 @@
     min-height: 426px;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-top: 165px;
-    margin-right: 453px;
+  .u-section-1 .u-group-1 {
+    margin-top: 0;
+    margin-left: 0;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-left: 453px;
-  }
-
-  .u-section-1 .u-btn-3 {
-    margin-top: -38px;
+  .u-section-1 .u-group-2 {
+    margin-top: -372px;
+    margin-right: 0;
+    margin-bottom: 12px;
   }
 }
 
@@ -140,42 +133,48 @@
     min-height: 320px;
   }
 
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 3.333333333333333rem;
-    margin-top: 123px;
-    margin-right: 273px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 3.333333333333333rem;
-    margin-left: 273px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 20px;
-  }
-
-  .u-section-1 .u-btn-3 {
-    margin-top: -91px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 201px;
+    min-height: 655px;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-top: 63px;
-    margin-right: 73px;
+  .u-section-1 .u-group-1 {
+    margin-top: 9px;
+    margin-left: auto;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-left: 73px;
+  .u-section-1 .u-group-2 {
+    margin-top: -163px;
+    margin-right: 12px;
+    margin-bottom: 23px;
   }
 
-  .u-section-1 .u-btn-3 {
-    margin-top: -151px;
+  .u-section-1 .u-btn-4 {
+    margin-right: auto;
+    margin-left: 42px;
+    padding-right: 25px;
+    padding-left: 24px;
+  }
+
+  .u-section-1 .u-btn-5 {
+    margin-right: auto;
+    margin-left: 40px;
+    padding-right: 29px;
+    padding-left: 28px;
   }
 }@font-face {
   font-family: 'CyberBrush';
